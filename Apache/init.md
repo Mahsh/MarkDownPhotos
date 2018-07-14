@@ -3,14 +3,14 @@
  
 ## **安装**
 目前使用的操作系统是debian，可以直接apt-get获取。
-`
+```
 sudo apt-get install apache2
-`
+```
 ## **基本配置**
 成功安装Apache之后，服务器会默认开启该服务，可以查看当前服务的状态。
-`
+```
 sudo service apache2 [status|start|stop|restart]
-`
+```
 + **主配置目录**
 
 在配置文件目录 /etc/apache2/ 可以查看配置文件目录
@@ -57,6 +57,7 @@ Listen 8660
 这里显示访问上边设置的站点的测试文件，效果如下：
 
 ![Connection](https://github.com/Mahsh/MarkDownPhotos/raw/master/Apache/ConnectionResult.png)
+
 可以看到访问192.168.154.128的8660端口，能够访问到apache服务器指定路径/home/mahaishou/www/下的文件（这里是testdir目录）。
 ## **问题汇总**
 
