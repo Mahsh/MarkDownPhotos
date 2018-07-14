@@ -6,6 +6,10 @@
 ```
 sudo apt-get install apache2
 ```
+补充一下卸载apache。
+`
+apt-get --purge remove apache2
+`
 ## **基本配置**
 成功安装Apache之后，服务器会默认开启该服务，可以查看当前服务的状态。
 ```
