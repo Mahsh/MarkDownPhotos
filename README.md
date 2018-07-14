@@ -14,7 +14,7 @@ good luck!
 修改为 https://github.com/Mahsh/MarkDownPhotos/raw/master/Apache/Directory.png
 
 在markdown中引用时，示例如下
- *\[image\]\(上述图片链接\)*
+ *!\[image\]\(https://github.com/Mahsh/MarkDownPhotos/raw/master/Apache/Directory.png\)*
 
 效果如下
 
